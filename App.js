@@ -50,4 +50,4 @@ client.on('message', function(message) {
     })
 });
 
-client.login("MzcyNzk1NDc0ODMyNTIzMjY0.DNNkEQ.6Ro_T3RFP-VnvcMRuHvgab5XXGo")
+client.login(process.env.TOKEN)
